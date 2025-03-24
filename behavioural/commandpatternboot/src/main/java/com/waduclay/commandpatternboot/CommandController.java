@@ -19,12 +19,14 @@ public class CommandController {
         this.deleteDocumentCommand = deleteDocumentCommand;
     }
     @PostMapping("/create-document")
-    public void createDocument(@RequestParam String documentName) {
+    public String createDocument(@RequestParam String documentName) {
         commandInvoker.executeCommand(createDocumentCommand.setDocumentName(documentName));
+        return "Document created successfully: " + documentName;
     }
 
     @DeleteMapping("/delete-document")
-    public void deleteDocument(@RequestParam String documentName) {
+    public String deleteDocument(@RequestParam String documentName) {
         commandInvoker.executeCommand(deleteDocumentCommand.setDocumentName(documentName));
+        return "Document deleted successfully: " + documentName;
     }
 }
