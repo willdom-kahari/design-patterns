@@ -1,9 +1,7 @@
 package com.waduclay.commandpatternboot;
 
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author <a href="mailto:developer.wadu@gmail.com">Willdom Kahari</a>
@@ -20,12 +18,12 @@ public class CommandController {
         this.createDocumentCommand = createDocumentCommand;
         this.deleteDocumentCommand = deleteDocumentCommand;
     }
-    @RequestMapping("/create-document")
+    @PostMapping("/create-document")
     public void createDocument(@RequestParam String documentName) {
         commandInvoker.executeCommand(createDocumentCommand.setDocumentName(documentName));
     }
 
-    @RequestMapping("/delete-document")
+    @DeleteMapping("/delete-document")
     public void deleteDocument(@RequestParam String documentName) {
         commandInvoker.executeCommand(deleteDocumentCommand.setDocumentName(documentName));
     }
