@@ -14,4 +14,8 @@ public class DocumentService {
     public void createDocument(String documentName) {
         LOG.info("Creating document: " + documentName);
     }
+
+    public void deleteDocument(String documentName) {
+        LOG.info("Deleting document: " + documentName);
+    }
 }
