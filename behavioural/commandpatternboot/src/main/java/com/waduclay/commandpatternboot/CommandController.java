@@ -29,4 +29,10 @@ public class CommandController {
         commandInvoker.executeCommand(deleteDocumentCommand.setDocumentName(documentName));
         return "Document deleted successfully: " + documentName;
     }
+
+    @PostMapping("/undo")
+    public String undoLastCommand() {
+        commandInvoker.undoLastCommand();
+        return "Last command undone";
+    }
 }

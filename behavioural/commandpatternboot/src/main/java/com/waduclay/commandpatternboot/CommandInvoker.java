@@ -23,6 +23,8 @@ public class CommandInvoker {
         if(!commandHistory.isEmpty()){
             Command command = commandHistory.pop();
             LOG.info("Last command undone");
+            return;
         }
+        LOG.info("No command to undo");
     }
 }
