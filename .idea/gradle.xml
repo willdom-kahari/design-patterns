@@ -20,6 +20,14 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/creational/singleton" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/creational/singleton" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/structural/adapter/adapter-pattern" />
         <option name="modules">
           <set>
