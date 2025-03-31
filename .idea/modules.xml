@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/adapter-pattern.main.iml" filepath="$PROJECT_DIR$/.idea/modules/adapter-pattern.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commandpattern.main.iml" filepath="$PROJECT_DIR$/.idea/modules/commandpattern.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/designpatterns.iml" filepath="$PROJECT_DIR$/.idea/designpatterns.iml" />
     </modules>
   </component>

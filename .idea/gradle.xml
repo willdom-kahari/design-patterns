@@ -4,18 +4,18 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/behavioural/commandpattern" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/behavioural/command/commandpattern" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/behavioural/commandpattern" />
+            <option value="$PROJECT_DIR$/behavioural/command/commandpattern" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/behavioural/commandpatternboot" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/behavioural/command/commandpatternboot" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/behavioural/commandpatternboot" />
+            <option value="$PROJECT_DIR$/behavioural/command/commandpatternboot" />
           </set>
         </option>
       </GradleProjectSettings>
