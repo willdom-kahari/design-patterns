@@ -20,6 +20,22 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/creational/factory/factorymethod" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/creational/factory/factorymethod" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/creational/factory/simplefactory" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/creational/factory/simplefactory" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/creational/singleton" />
         <option name="modules">
           <set>
